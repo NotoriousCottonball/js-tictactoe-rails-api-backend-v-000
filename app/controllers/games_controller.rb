@@ -8,7 +8,7 @@ class GamesController < ApplicationController
 
    def update
     @game.update(game_params)
-    render json: @game
+    render json: @game, status: 200
    end
 
    def create
@@ -17,7 +17,7 @@ class GamesController < ApplicationController
    end
 
    def show
-    render json: @game
+    render json: @game, status: 200
    end
 
    private
