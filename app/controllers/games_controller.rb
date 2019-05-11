@@ -1,4 +1,2 @@
 class GamesController < ApplicationController
-  # Add your GamesController code here
-
-end
+  # Add your GamesController code her
